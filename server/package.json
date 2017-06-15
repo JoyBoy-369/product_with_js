@@ -1,0 +1,16 @@
+{
+  "name": "experts-server",
+  "version": "1.0.0",
+  "description": "expret rest backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rest",
+    "javascript",
+    "experts"
+  ],
+  "author": "Kevin N <kevin.crownclown@gmail.com>",
+  "license": "MIT"
+}
