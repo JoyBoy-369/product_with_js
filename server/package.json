@@ -6,9 +6,9 @@
   "scripts": {
     "start": "babel-node src/index.js",
     "test": "eslint src/ && babel-node test/",
-    "db:start":"docker run -d -p 28015:28015 -p 8090:8080 -v $PWD/db:/data --name expertsdb rethinkdb",
-    "db:rm":"docker rm expertsdb",
-    "db:stop":"docker stop expertsdb"
+    "db:start": "docker run -d -p 28015:28015 -p 8090:8080 -v $PWD/db:/data --name expertsdb rethinkdb",
+    "db:rm": "docker rm expertsdb",
+    "db:stop": "docker stop expertsdb"
   },
   "keywords": [
     "rest",
@@ -42,6 +42,7 @@
     "supertest": "^3.0.0",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",
+    "thinky": "2.3.8",
     "winston": "2.3.1"
   }
 }
