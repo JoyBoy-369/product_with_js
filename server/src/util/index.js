@@ -1,4 +1,5 @@
 import logger from './logger';
+import asyncRequest from './asyncRequest';
 
-export default logger;
-
+export {logger, asyncRequest};
+export {hash} from './hash';

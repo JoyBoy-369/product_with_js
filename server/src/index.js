@@ -1,5 +1,5 @@
 import app from './app';
-import logger from './util';
+import {logger} from './util';
 import {thinky} from './db';
 
 thinky.dbReady().then(() => {

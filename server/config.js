@@ -4,4 +4,9 @@ const db = {
   db: 'expertsdb',
 };
 
-export default db;
+const auth = {
+  passwordSalt: 'hello',
+  secret: 'keyboardcat',
+};
+
+export {db, auth};
